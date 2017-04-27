@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#88EBBB;
+}
+
+img {
+	width: 300px;
+	padding-left: 90px;
+	margin-top: 0px;
+	
+}
+body {
+	margin:0;
+	background-color:#88EBBB;
+}
+header{
+font-size:80px;
+	font-family:Palatino Linotype;
+	border: solid 10px #FFFFFF;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+nav {
+	border-top: 8px solid #34589e;
+	background: #2a6fb7;
+}
+nav ul {
+	overflow:hidden;
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1000px;
+}
+nav li {
+	box-sizing: border-box;
+	float: left;
+	border-right: 2px solid #34589e;
+	width: 33%;
+}
+nav li a{
+	display: block;
+	padding: 20px 0;
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	font-family:Palatino Linotype;
+}
+nav  li a:hover{
+	background: #34589e;
+}
+.wrapper {
+	overflow: hidden;
+}
+.item {
+	float: left;
+	margin: 8px 0 8px 8px;
+	border: 5px dashed #F08DD1;
+	padding: 8px;
+	width: 500px;
+}
+ .title {
+	border-left: 5px solid #6B2829;
+}
+.jiko {
+	float: left;
+	margin: 8px 0 8px 8px;
+	padding: 8px;
+	width: 300px;
+}
+.index{
+	margin-left: 180px;
+	text-align: center;
+	margin-top: 0px
+}
+.phtxt{
+	text-align: center;
+}
